@@ -1,0 +1,14 @@
+C:\Users\lcom80\source\repos\EFCoreTest\EFCoreTest.BLL\bin\Release\netcoreapp2.1\EFCoreTest.BLL.deps.json
+C:\Users\lcom80\source\repos\EFCoreTest\EFCoreTest.BLL\bin\Release\netcoreapp2.1\EFCoreTest.BLL.dll
+C:\Users\lcom80\source\repos\EFCoreTest\EFCoreTest.BLL\bin\Release\netcoreapp2.1\EFCoreTest.BLL.pdb
+C:\Users\lcom80\source\repos\EFCoreTest\EFCoreTest.BLL\bin\Release\netcoreapp2.1\EFCoreTest.Common.dll
+C:\Users\lcom80\source\repos\EFCoreTest\EFCoreTest.BLL\bin\Release\netcoreapp2.1\EFCoreTest.DAL.dll
+C:\Users\lcom80\source\repos\EFCoreTest\EFCoreTest.BLL\bin\Release\netcoreapp2.1\EFCoreTest.DAL.pdb
+C:\Users\lcom80\source\repos\EFCoreTest\EFCoreTest.BLL\bin\Release\netcoreapp2.1\EFCoreTest.Common.pdb
+C:\Users\lcom80\source\repos\EFCoreTest\EFCoreTest.BLL\obj\Release\netcoreapp2.1\EFCoreTest.BLL.csprojAssemblyReference.cache
+C:\Users\lcom80\source\repos\EFCoreTest\EFCoreTest.BLL\obj\Release\netcoreapp2.1\EFCoreTest.BLL.csproj.CoreCompileInputs.cache
+C:\Users\lcom80\source\repos\EFCoreTest\EFCoreTest.BLL\obj\Release\netcoreapp2.1\EFCoreTest.BLL.AssemblyInfoInputs.cache
+C:\Users\lcom80\source\repos\EFCoreTest\EFCoreTest.BLL\obj\Release\netcoreapp2.1\EFCoreTest.BLL.AssemblyInfo.cs
+C:\Users\lcom80\source\repos\EFCoreTest\EFCoreTest.BLL\obj\Release\netcoreapp2.1\EFCoreTest.BLL.csproj.CopyComplete
+C:\Users\lcom80\source\repos\EFCoreTest\EFCoreTest.BLL\obj\Release\netcoreapp2.1\EFCoreTest.BLL.dll
+C:\Users\lcom80\source\repos\EFCoreTest\EFCoreTest.BLL\obj\Release\netcoreapp2.1\EFCoreTest.BLL.pdb

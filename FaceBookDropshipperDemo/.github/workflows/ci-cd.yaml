@@ -1,0 +1,45 @@
+name: FBDropShipper CI/CD
+
+on:
+  push:
+    branches:
+      - ci-cd
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check Out Code
+        uses: actions/checkout@v2
+
+      - name: Setup Net 6
+        uses: actions/setup-dotnet@v1
+        with:
+          dotnet-version: '6.0.x'
+
+      - name: Restore Dependencies
+        run: dotnet restore
+
+      - name: Build App
+        run: dotnet publish -c Release --output ./Release
+      - name: Delete AppSettings
+        run: rm /home/runner/work/fbdropshipper-api/fbdropshipper-api/Release/appsettings.json
+      - name: Deploying to Server
+        uses: wlixcc/SFTP-Deploy-Action@v1.0
+        with:
+          ssh_private_key: ${{ secrets.DEVELOPMENT_PRIVATEKEY }}
+          local_path: "./Release/*"
+          server: ${{ secrets.DEVELOPMENT_HOST }}
+          username: ${{ secrets.DEVELOPMENT_USERNAME }}
+          remote_path: /srv/fbdropshipper.api/
+          
+      - name: Restart Server
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.DEVELOPMENT_HOST }}
+          username: ${{ secrets.DEVELOPMENT_USERNAME }}
+          password: ${{ secrets.DEVELOPMENT_PASSWORD }}
+          port: 22
+          script: |
+            sudo systemctl stop fbdropshipper.service
+            sudo systemctl start fbdropshipper.service

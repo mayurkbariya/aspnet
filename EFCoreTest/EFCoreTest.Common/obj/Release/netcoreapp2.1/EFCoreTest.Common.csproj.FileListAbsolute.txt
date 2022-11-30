@@ -1,0 +1,9 @@
+C:\Users\lcom80\source\repos\EFCoreTest\EFCoreTest.Common\bin\Release\netcoreapp2.1\EFCoreTest.Common.deps.json
+C:\Users\lcom80\source\repos\EFCoreTest\EFCoreTest.Common\bin\Release\netcoreapp2.1\EFCoreTest.Common.dll
+C:\Users\lcom80\source\repos\EFCoreTest\EFCoreTest.Common\bin\Release\netcoreapp2.1\EFCoreTest.Common.pdb
+C:\Users\lcom80\source\repos\EFCoreTest\EFCoreTest.Common\obj\Release\netcoreapp2.1\EFCoreTest.Common.csprojAssemblyReference.cache
+C:\Users\lcom80\source\repos\EFCoreTest\EFCoreTest.Common\obj\Release\netcoreapp2.1\EFCoreTest.Common.csproj.CoreCompileInputs.cache
+C:\Users\lcom80\source\repos\EFCoreTest\EFCoreTest.Common\obj\Release\netcoreapp2.1\EFCoreTest.Common.AssemblyInfoInputs.cache
+C:\Users\lcom80\source\repos\EFCoreTest\EFCoreTest.Common\obj\Release\netcoreapp2.1\EFCoreTest.Common.AssemblyInfo.cs
+C:\Users\lcom80\source\repos\EFCoreTest\EFCoreTest.Common\obj\Release\netcoreapp2.1\EFCoreTest.Common.dll
+C:\Users\lcom80\source\repos\EFCoreTest\EFCoreTest.Common\obj\Release\netcoreapp2.1\EFCoreTest.Common.pdb

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <meta charset="UTF-8">
+    <style>
+        body {
+            background: #0366d6;
+            color: white;
+        }
+    </style>
+    <title>Thank you for Signing Up with TAM</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm">
+                <div class="h1 text-center">Thank you for Signing Up with TAM</div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm">
+                <p>Hello {{fullName}},</p>
+                <p>Your account has been created by the admin of TAM. We welcome you to our community hope you will make good use of it.</p>
+                <p>We have create for you an account with the following credentials</p>
+                <p>Username: {{email}}</p>
+                <p>Password: {{password}}</p>
+                <p>Please login to this account and reset your password.</p>
+                <br>
+                <p>Thank you,</p>
+                <p>TAM Admin</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

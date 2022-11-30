@@ -1,0 +1,36 @@
+image: mcr.microsoft.com/dotnet/sdk:6.0
+   
+stages:
+    - build
+    - deploy
+
+
+
+build:
+    stage: build
+    script:
+        - dotnet restore "FBDropshipper.WebApi/FBDropshipper.WebApi.csproj"
+        - dotnet publish "FBDropshipper.WebApi/FBDropshipper.WebApi.csproj" -c Release -o /Release
+    artifacts:
+        paths:
+        - /builds/fb-dropshipper/fb-dropshipper-api/fbdropshipper-api/FBDropshipper.WebApi/bin/Release/net6.0/
+
+deploy:
+    stage: deploy
+    dependencies: 
+        - build
+    script:
+        - apt-get update -qq
+        - apt-get install -qq git
+        - 'which ssh-agent || ( apt-get install -qq openssh-client )'
+        - eval $(ssh-agent -s)
+        - ssh-add <(echo "$DEV_SSH_KEY" | base64 -d)
+        - mkdir -p ~/.ssh
+        - chmod 700 ~/.ssh
+        - '[[ -f /.dockerenv ]] && echo -e "Host *\n\t StrictHostKeyChecking no \n\n" > ~/.ssh/config' 
+        - touch ~/.ssh/known_hosts
+        - echo "$DEV_SERVER" >> ~/.ssh/known_hosts
+        - ssh $DEV_USERNAME@$DEV_SERVER "echo Hello World"
+        - ssh $DEV_USERNAME@$DEV_SERVER "sudo systemctl stop fbdropshipper.service"
+        - scp -C -r /builds/fb-dropshipper/fb-dropshipper-api/fbdropshipper-api/FBDropshipper.WebApi/bin/Release/net6.0/* $DEV_USERNAME@$DEV_SERVER:/srv/fbdropshipper
+        - ssh $DEV_USERNAME@$DEV_SERVER "sudo systemctl start fbdropshipper.service"

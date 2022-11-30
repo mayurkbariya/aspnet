@@ -1,0 +1,14 @@
+C:\Users\lcom80\source\repos\EFCoreTest\EFCoreTest.DAL\bin\Release\netcoreapp2.1\EFCoreTest.DAL.deps.json
+C:\Users\lcom80\source\repos\EFCoreTest\EFCoreTest.DAL\bin\Release\netcoreapp2.1\EFCoreTest.DAL.runtimeconfig.json
+C:\Users\lcom80\source\repos\EFCoreTest\EFCoreTest.DAL\bin\Release\netcoreapp2.1\EFCoreTest.DAL.runtimeconfig.dev.json
+C:\Users\lcom80\source\repos\EFCoreTest\EFCoreTest.DAL\bin\Release\netcoreapp2.1\EFCoreTest.DAL.dll
+C:\Users\lcom80\source\repos\EFCoreTest\EFCoreTest.DAL\bin\Release\netcoreapp2.1\EFCoreTest.DAL.pdb
+C:\Users\lcom80\source\repos\EFCoreTest\EFCoreTest.DAL\bin\Release\netcoreapp2.1\EFCoreTest.Common.dll
+C:\Users\lcom80\source\repos\EFCoreTest\EFCoreTest.DAL\bin\Release\netcoreapp2.1\EFCoreTest.Common.pdb
+C:\Users\lcom80\source\repos\EFCoreTest\EFCoreTest.DAL\obj\Release\netcoreapp2.1\EFCoreTest.DAL.csprojAssemblyReference.cache
+C:\Users\lcom80\source\repos\EFCoreTest\EFCoreTest.DAL\obj\Release\netcoreapp2.1\EFCoreTest.DAL.csproj.CoreCompileInputs.cache
+C:\Users\lcom80\source\repos\EFCoreTest\EFCoreTest.DAL\obj\Release\netcoreapp2.1\EFCoreTest.DAL.AssemblyInfoInputs.cache
+C:\Users\lcom80\source\repos\EFCoreTest\EFCoreTest.DAL\obj\Release\netcoreapp2.1\EFCoreTest.DAL.AssemblyInfo.cs
+C:\Users\lcom80\source\repos\EFCoreTest\EFCoreTest.DAL\obj\Release\netcoreapp2.1\EFCoreTest.DAL.csproj.CopyComplete
+C:\Users\lcom80\source\repos\EFCoreTest\EFCoreTest.DAL\obj\Release\netcoreapp2.1\EFCoreTest.DAL.dll
+C:\Users\lcom80\source\repos\EFCoreTest\EFCoreTest.DAL\obj\Release\netcoreapp2.1\EFCoreTest.DAL.pdb
